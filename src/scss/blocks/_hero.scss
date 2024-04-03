@@ -1,0 +1,222 @@
+.hero {
+	height: 1000px;
+
+	// background-color: #ffc95c;
+	background-image: url('./../../img/hero/bg-night.jpg');
+
+	background-position: center center; /* x y */
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	opacity: 1;
+
+	// @include mediaBg() {
+	// 	background-image: url('./../img/hero/bg@2x.jpg');
+	// }
+
+	// @include tablet {
+	// 	height: 500px;
+	// }
+
+	// @include mobile {
+	// 	height: auto;
+	// 	padding-bottom: 390px;
+
+	// 	background-image: url('./../img/hero/bg-mobile.jpg');
+	// 	@include mediaBg() {
+	// 		background-image: url('./../img/hero/bg-mobile@2x.jpg');
+	// 	}
+	// }
+}
+
+.hero__container-top {
+	width: 100%;
+	height: 50%;
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 30px;
+
+	padding: 100px;
+
+	@include tablet {
+		padding-right: var(--container-padding);
+	}
+
+	@include mobile {
+		padding: 40px var(--container-padding);
+		text-align: center;
+		height: auto;
+		justify-content: center;
+
+		max-width: 375px;
+		margin: 0 auto;
+	}
+}
+
+.hero__container-bottom {
+	width: 100%;
+	height: 50%;
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 30px;
+
+	padding: 0 100px 100px;
+
+	@include tablet {
+		padding-right: var(--container-padding);
+	}
+
+	@include mobile {
+		padding: 40px var(--container-padding);
+		text-align: center;
+		height: auto;
+		justify-content: center;
+
+		max-width: 375px;
+		margin: 0 auto;
+	}
+}
+
+.hero__content {
+	color: #fff;
+}
+
+.hero__title {
+	grid-column: 1/4;
+
+	margin-bottom: 8px;
+	margin-top: 40px;
+
+	color: #000;
+	font-size: 80px;
+	line-height: 1;
+	font-weight: 500;
+	letter-spacing: -3px;
+	font-family: var(--font-accent);
+	text-wrap: balance;
+
+	@include tablet {
+		font-size: 60px;
+	}
+
+	@include mobile {
+		font-size: 40px;
+	}
+
+	
+}
+
+.hero__desc {
+	display: flex;
+	align-items: center;
+	grid-column: 4/6;
+	justify-content: space-between;
+
+	margin-bottom: 28px;
+	color: #121212;
+	font-size: 20px;
+	line-height: 1.6;
+
+	@include mobile {
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+}
+
+.btn-download {
+	&:hover {
+		animation: download-btn 1.2s 0.2s infinite;
+}
+
+@keyframes download-btn {
+		0% {transform: rotate(0deg);};
+		5% {transform: rotate(-1deg);};
+		10% {transform: rotate(0deg);};
+		15% {transform: rotate(1deg);};	
+		20% {transform: rotate(0deg);};
+		25% {transform: rotate(-1deg);};		
+		30% {transform: rotate(0deg);};		
+		55% {transform: rotate(1deg);};			
+		60% {transform: rotate(0deg);};
+		65% {transform: rotate(1deg);};
+		70% {transform: rotate(0deg);};
+	};
+
+}
+.hero__cv-link--arrow {
+	display: block;
+	width: 300px;
+	transform: rotate(-90deg);
+
+	&:hover {
+		animation: download-arrow 0.5s ease-in 0.8s;
+	};
+}
+
+// @keyframes download-arrow {
+// 		0% {transform: rotate(-90deg);};
+// 		5% {transform: rotate(-91deg);};
+// 		10% {transform: rotate(-90deg);};
+// 		15% {transform: rotate(-89deg);};
+// 		20% {transform: rotate(-90deg);};
+// 		25% {transform: rotate(-91deg);};
+// 		30% {transform: rotate(-90deg);};
+// 		35% {transform: rotate(-91deg);};
+// 		40% {transform: rotate(-90deg);};
+// 		45% {transform: rotate(-89deg);};
+// 		50% {transform: rotate(-90deg);};			
+// };
+
+@keyframes download-arrow {
+	0% {transform: rotate(-90deg);};
+	50% {transform: rotate(-180deg)}
+	100% {transform: rotate(-36000deg);};
+};
+
+.hero__info-link {
+	display: flex;
+	margin: auto 0;
+	background-color: #fff;
+	align-items: center;
+	
+	border-radius: 10px;
+	border: hsl(231, 100%, 61%) 1px solid;
+
+	&:hover{
+		background-color: #e3d4d4;
+	}
+}
+
+.hero__info-link-btn {
+	display: flex;
+}
+
+.hero__info-link-btn-photo {
+	width: 200px;
+	border-radius: 10px 0 0 10px;
+}
+
+.hero__info-link-desc{
+	padding-top: 20%;
+	height: 100%;
+	text-align: center;	
+}
+
+.hero__next-link {
+	display: flex;
+	min-height: 100px;
+	margin: auto 0;
+	background-color: #fff;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	
+	border-radius: 10px;
+	border: hsl(231, 100%, 61%) 1px solid;
+
+	&:hover{
+		background-color: #e3d4d4;
+	}
+}	

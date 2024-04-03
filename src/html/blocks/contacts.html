@@ -1,0 +1,125 @@
+<section id="contacts" class="contacts">
+    <div class="container">
+        <h2 class="contacts__title title"> Connect <span>to </span>order</h2>
+        <div class="contacts__content">
+            <div class="contacts-left">
+                <div class="contacts-left__desc">
+                    <p>MY CONTACTS</p>
+                </div>
+                <ul class="contacts__list">
+                    <li class="contacts__list__item">
+                        <a href="tel:+37129711575">
+                            <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/phone.svg" alt="Phone">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Phone:</p>
+                                    <p>+371-2-9711-575</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item"> <a href="mailto:prokuuudin@gmail.com">
+                        <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/email.svg" alt="Email">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Email:</p>
+                                    <p>prokuuudin@gmail.com</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item">
+                        <a href="https://t.me/Aleksandr_Prokudin" target="_blank"
+                        rel="nofollow">
+                            <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/telegram.svg" alt="Telegram">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Telegram:</p>
+                                    <p>t.me/Aleksandr_Prokudin</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item">
+                        <a href="https://www.facebook.com/aleksandr.prokudin.77" target="_blank"
+                        rel="nofollow">
+                        <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/facebook.svg" alt="Fb">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Facebook:</p>
+                                    <p>facebook.com/aleksandr.prokudin.77</p>
+                            </div>
+                        </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item">
+                        <a href="https://www.instagram.com/prokuuudin/" target="_blank"
+                        rel="nofollow">
+                        <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/instagram.svg" alt="Instagram">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Instagram:</p>
+                                    <p>instagram.com/prokuuudin/</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacts-right">
+                <div class="contacts-right__desc">
+                    <p>USE THE FORM</p>
+                </div>
+                <div class="contacts__form">
+                    <form id="form" class="form" name="form" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="nameFF">Your name:</label>
+                            <input type="text" id="nameFF" name="name" required="">
+                            <!-- <input type="text" id="nameFF" name="nameFF" required> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="contactFF" Ваш="">E-mail:</label>
+                            <input type="email" id="contactFF" name="mail">
+                            <!-- <input type="email" id="contactFF" name="contactFF" required> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="telFF">Your phone:</label>
+                            <input type="tel" id="telFF" name="phone">
+                            <!-- <input type="tel" id="telFF" name="telFF" required> -->
+                        </div>
+                        <div class="form-group form-upload" id="selector">
+                            <input type="file" id="file" name="" hidden="">
+                            <label for="file" id="selector"><span>Add your files </span>(not necessary)</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectFF">Your message</label>
+                            <textarea id="projectFF" name="projectFF"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input id="checkbox" type="checkbox" name="checkbox">
+                            <label for="checkbox">Я принимаю условия <a href="#" target="_blank">политики
+                                    конфиденциальности</a> и даю согласие на
+                                обработку персональных данных.</label>
+                        </div>
+                        <button id="submitFF" disabled="">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- start popup -->
+    <div class="overlay js-overlay-thank-you">
+        <div class="popup js-thank-you">
+            <h2>Your message was sent</h2>
+            <div class="close-popup js-close-thank-you"></div>
+        </div>
+    </div>
+    <!-- end popup -->
+</section>

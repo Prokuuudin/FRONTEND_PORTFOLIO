@@ -1,0 +1,37 @@
+<section class="hero">
+    <div class="hero__container-top">
+        <h1 class="hero__title">
+            My name is <span>Aleksandr</span> and I`m a frontend developer from <span>Riga</span>
+        </h1>
+
+        <div class="hero__desc">
+            <div class="hero__cv">
+                <a href="#!" class="hero__cv-link--arrow" download="#!"><img src="./img/icons/arrow-310629.svg"
+                        alt=""></a>
+            </div>
+            <div class="hero__cv-link--btn">
+                <a href="#!" class="btn btn-download" download="#!">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero__container-bottom">
+        <div class="hero__info-link">
+            <button class="hero__info-link-btn">
+                <img class="hero__info-link-btn-photo" src="./img/hero/hero.jpg" alt="Hero photo">
+                <p class="hero__info-link-desc">Click here to know more about me</p>
+                
+                <div class="hero__info__next-cart-btn">
+                    <img src="./img/icons/arrow-right.svg" alt="Arrow right">
+                </div>
+            </button>
+        </div>
+      
+        @@loop('templates/hero-card.html', './data/hero.json')
+        <div class="hero__next-link"><a href="#projects">Go ahead!</a>
+        </div>
+    </div>
+</section>
+
+    
+</section>

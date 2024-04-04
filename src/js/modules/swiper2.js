@@ -1,24 +1,12 @@
-//     var swiper = new Swiper2(".mySwiper", {
-//       loop: true,
-//       slidesPerView: 5,
-// 	    slidesPerView: 'auto',
-// 	    spaceBetween: 12,
-//       centeredSlides: false,
-
-//        autoplay: {
-//         delay: 2500,
-//         disableOnInteraction: false,
-//         pauseOnMouseEnter: false,
-//         reverseDirection:	false,
-//         stopOnLastSlide:	false,
-//         waitForTransition:	true
-//       },
-// });
+import Swiper2 from 'swiper/bundle';
+// import styles bundle
+import 'swiper/css/bundle';
 
 let swiper = new Swiper2(".mySwiper", {
-  slidesPerView: 1,
+  slidesPerView: 6,
   loop: true,
-  speed: 1000,
+  speed: 3000,
+  delay:0,
   autoplay: true,
   breakpoints: {
     850: {
@@ -30,3 +18,4 @@ let swiper = new Swiper2(".mySwiper", {
     },
   }
 });
+export default Swiper2;

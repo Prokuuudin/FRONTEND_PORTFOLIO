@@ -6,7 +6,6 @@ let swiper = new Swiper2(".mySwiper", {
   slidesPerView: 6,
   loop: true,
   speed: 3000,
-  delay:0,
   autoplay: true,
   breakpoints: {
     850: {

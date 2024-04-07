@@ -10,7 +10,7 @@
 	</head>
 	<body>
 
-		<nav class="nav">
+		<nav class="nav" id="about">
     <div class="container">
         <div class="nav__row">
 
@@ -23,7 +23,7 @@
 
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#!" class="nav__link lng-about">About</a>
+                    <a href="#about" class="nav__link lng-about">About</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link lng-skills" href="#skills">Skills</a></button>
@@ -37,25 +37,31 @@
             </ul>
 
             <div class="nav__lang-btns">
-                <button class="nav__lang-btn nav__lang-btn--rus">
-                    RUS
-                </button>
-                <button class="nav__lang-btn nav__lang-btn--eng">
-                    ENG
-                </button>
-                <button class="nav__lang-btn nav__lang-btn--lat">
-                    LAT
-                </button>
+                <div>
+                    <input type="radio" name="lang" id="ru" checked="checked" class="nav__lang-btn nav__lang-btn--rus">
+                    <label for="ru">RU</label>
+                    <img class="nav__lang-flag nav__lang-flag--active" src="./img/icons/flag_ru.svg" alt="RU">
+                </div>
+                <div>
+                    <input type="radio" name="lang" id="en" class="nav__lang-btn nav__lang-btn--eng">
+                    <label for="en">EN</label>
+                    <img class="nav__lang-flag" src="./img/icons/flag_uk.svg" alt="EN">
+                </div>
+                <div>
+                    <input type="radio" name="lang" id="lv" class="nav__lang-btn nav__lang-btn--lat">
+                    <label for="lv">LV</label>
+                    <img class="nav__lang-flag" src="./img/icons/flag_lv.svg" alt="LV">
+                </div>
             </div>
-            
-            <button class="dark-mode-btn" >
-                    <img class="dark-mode-btn__icon"  src="./img/icons/sun2.svg" alt="Light mode">
-                    <img class="dark-mode-btn__icon"  src="./img/icons/moon2.svg" alt="Dark mode">
-                    <img class="dark-mode-btn__element"  src="./img/icons/cloud3.svg" alt="Toggle">
+
+            <button class="dark-mode-btn">
+                <img class="dark-mode-btn__icon" src="./img/icons/sun2.svg" alt="Light mode">
+                <img class="dark-mode-btn__icon" src="./img/icons/moon2.svg" alt="Dark mode">
+                <img class="dark-mode-btn__element" src="./img/icons/cloud3.svg" alt="Toggle">
             </button>
-            
+
         </div>
-        </div>
+    </div>
     </div>
 </nav>
 		<div class="mobile-nav">
@@ -127,7 +133,7 @@
 	<!-- // mobile-nav__bottom -->
 </div>
 <div class="mobile-nav-fade"></div>
-		<section class="hero">
+		<section class="hero" >
     <div class="hero__container-top">
         <h1 class="hero__title lng-hero-title">
             My name is <span>Aleksandr</span> and I`m a frontend developer from <span>Riga</span>
@@ -135,7 +141,7 @@
 
         <div class="hero__desc">
             <div class="hero__cv">
-                <a href="#!" class="hero__cv-link--arrow" download="#!"><img src="./img/icons/arrow-310629.svg"
+                <a href="#!" class="hero__cv-link--arrow"><img src="./img/icons/arrow-310629.svg"
                         alt=""></a>
             </div>
             <div class="hero__cv-link--btn">
@@ -176,21 +182,383 @@
 
     
 </section>
-		
+		<section class="projects" id="projects">
+    <div class="container">
+        <div class="projects__desc">
+            <div class="projects__title title">
+                <h2>PROJECTS</h2>
+            </div>
+            <div class="projects__text">
+                <p>Проекты добавляются по мере появления. Сейчас их столько</p>
+            </div>
+            <div class="project__swiper">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-1</div>
+      <img class="card__picture" src="./img/projects/01.jpg" alt="Project">
+      <div class="card__text">Интернет-магазин по туториалу</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-2</div>
+      <img class="card__picture" src="./img/projects/02.jpg" alt="Project">
+      <div class="card__text">Галп-сборка по туториалу</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-3</div>
+      <img class="card__picture" src="./img/projects/03.jpg" alt="Project">
+      <div class="card__text">Проект на будстрапе по туториалу</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-4</div>
+      <img class="card__picture" src="./img/projects/04.jpg" alt="Project">
+      <div class="card__text">Проект на ХТМЛ и СиЭсэС</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-5</div>
+      <img class="card__picture" src="./img/projects/05.jpg" alt="Project">
+      <div class="card__text">Проект на Реакте</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div>
+          <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div> 
+</div>
+ 
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+       <div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-1</div>
+      <img class="card__picture" src="./img/projects/01.jpg" alt="Project">
+      <div class="card__text">Интернет-магазин по туториалу</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-2</div>
+      <img class="card__picture" src="./img/projects/02.jpg" alt="Project">
+      <div class="card__text">Галп-сборка по туториалу</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-3</div>
+      <img class="card__picture" src="./img/projects/03.jpg" alt="Project">
+      <div class="card__text">Проект на будстрапе по туториалу</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-4</div>
+      <img class="card__picture" src="./img/projects/04.jpg" alt="Project">
+      <div class="card__text">Проект на ХТМЛ и СиЭсэС</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__title">Project-5</div>
+      <img class="card__picture" src="./img/projects/05.jpg" alt="Project">
+      <div class="card__text">Проект на Реакте</div>
+      <a href="#!" class="card__link">смотреть</a>
+   </article>
+</div>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+        </div>
+    </div>
+</section>
+		<section class="skills" id="skills">
+  <div class="container">
+    <div class="skillls__desc">
+      <h2 class="skiils__title title">MY SKILLS</h2>
+      <div class="skills__text">
+        <p>Skills description</p>
+      </div>
+      </div>
+    </div>
+       <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+          <div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/figma.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/browsers.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/git.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/gulp.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/html.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/js.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/sass.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/vscode.png" alt="">
+</div>
+
+    </div>
+   </div>
+       <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+          <div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/figma.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/browsers.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/git.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/gulp.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/html.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/js.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/sass.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/vscode.png" alt="">
+</div>
+   
+    </div>
+   </div>
+    </div>
+    </div>
+  </div>
+
+</section>
+		<section id="contacts" class="contacts">
+    <div class="container">
+        <h2 class="contacts__title title"> Connect <span>to </span>order</h2>
+        <div class="contacts__content">
+            <div class="contacts-left">
+                <div class="contacts-left__desc">
+                    <p>MY CONTACTS</p>
+                </div>
+                <ul class="contacts__list">
+                    <li class="contacts__list__item">
+                        <a href="tel:+37129711575">
+                            <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/phone.svg" alt="Phone">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Phone:</p>
+                                    <p>+371-2-9711-575</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item"> <a href="mailto:prokuuudin@gmail.com">
+                        <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/email.svg" alt="Email">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Email:</p>
+                                    <p>prokuuudin@gmail.com</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item">
+                        <a href="https://t.me/Aleksandr_Prokudin" target="_blank"
+                        rel="nofollow">
+                            <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/telegram.svg" alt="Telegram">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Telegram:</p>
+                                    <p>t.me/Aleksandr_Prokudin</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item">
+                        <a href="https://www.facebook.com/aleksandr.prokudin.77" target="_blank"
+                        rel="nofollow">
+                        <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/facebook.svg" alt="Fb">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Facebook:</p>
+                                    <p>facebook.com/aleksandr.prokudin.77</p>
+                            </div>
+                        </div>
+                        </a>
+                    </li>
+
+                    <li class="contacts__list__item">
+                        <a href="https://www.instagram.com/prokuuudin/" target="_blank"
+                        rel="nofollow">
+                        <div class="contacts__list__item-group">
+                            <img class="contacts__list__item-img" src="./img/contacts/instagram.svg" alt="Instagram">
+                                <div class="contacts__list__item-desc">
+                                    <p>My Instagram:</p>
+                                    <p>instagram.com/prokuuudin/</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacts-right">
+                <div class="contacts-right__desc">
+                    <p>USE THE FORM</p>
+                </div>
+                <div class="contacts__form">
+                    <form id="form" class="form" name="form" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="nameFF">Your name:</label>
+                            <input type="text" id="nameFF" name="name" required="">
+                            <!-- <input type="text" id="nameFF" name="nameFF" required> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="contactFF" Ваш="">E-mail:</label>
+                            <input type="email" id="contactFF" name="mail">
+                            <!-- <input type="email" id="contactFF" name="contactFF" required> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="telFF">Your phone:</label>
+                            <input type="tel" id="telFF" name="phone">
+                            <!-- <input type="tel" id="telFF" name="telFF" required> -->
+                        </div>
+                        <div class="form-group form-upload" id="selector">
+                            <input type="file" id="file" name="" hidden="">
+                            <label for="file" id="selector"><span>Add your files </span>(not necessary)</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectFF">Your message</label>
+                            <textarea id="projectFF" name="projectFF"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input id="checkbox" type="checkbox" name="checkbox">
+                            <label for="checkbox">Я принимаю условия <a href="#" target="_blank">политики
+                                    конфиденциальности</a> и даю согласие на
+                                обработку персональных данных.</label>
+                        </div>
+                        <button id="submitFF" disabled="">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- start popup -->
+    <div class="overlay js-overlay-thank-you">
+        <div class="popup js-thank-you">
+            <h2>Your message was sent</h2>
+            <div class="close-popup js-close-thank-you"></div>
+        </div>
+    </div>
+    <!-- end popup -->
+</section>
+		<section class="promotion">
+    <div class="promotion__container">
+        <div class="promotion__content">
+
+            <div class="promotion__desc">
+                <p class="promotion__tagline">PROMOTION</p>
+                <h2 class="promotion__title">Hurry up! 40%&nbsp;OFF</h2>
+                <div class="promotion__text">
+                    <p>Thousands of high tech are waiting for you</p>
+                </div>
+            </div>
+
+            <div class="promotion__timer">
+                <p class="promotion__expires">Offer expires in:</p>
+                <div class="timer">
+    <div class="timer__el">
+        <div class="timer__value" id="days"></div>
+        <div class="timer__desc">Days</div>
+    </div>
+    <div class="timer__el">
+        <div class="timer__value" id="hours"></div>
+        <div class="timer__desc">Hours</div>
+    </div>
+    <div class="timer__el">
+        <div class="timer__value" id="minutes"></div>
+        <div class="timer__desc">Minutes</div>
+    </div>
+    <div class="timer__el">
+        <div class="timer__value" id="seconds"></div>
+        <div class="timer__desc">Seconds</div>
+    </div>
+</div>
+            </div>
+
+            <div class="promotion__btn">
+                <a href="#!" class="btn btn--small">Shop now</a>
+            </div>
+        </div>
+    </div>
+</section>
 		<footer class="footer">
 	<div class="container">
 
 		<div class="footer__row footer__row-top">
 			<div class="footer__title">
-				<div class="footer__logo">Aleksandr Prokudin</div>
+				<a href="#about" class="footer__logo">Aleksandr Prokudin</a>
 				<div class="footer__separator"></div>
 				<div class="footer__store">Frontend developer</div>
 			</div>
 			<ul class="footer__nav">
-				<li><a href="#!">About</a></li>
-				<li><a href="#!">Projects</a></li>
-				<li><a href="#!">Skills</a></li>
-				<li><a href="#!">Contacts</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contacts">Contacts</a></li>
 			</ul>
 		</div>
 
@@ -202,14 +570,6 @@
 					<a href="#!">Terms of Use</a>
 				</p>
 			</div>
-
-			<div class="footer__socials">
-				<a href="#!"><img src="./img/socials/instagram.svg" alt="Social"></a>
-				<a href="#!"><img src="./img/socials/facebook.svg" alt="Social"></a>
-				<a href="#!"><img src="./img/socials/youtube.svg" alt="Social"></a>
-			</div>
-		</div>
-
 	</div>
 </footer>
 		<script src="./js/index.bundle.js"></script>

@@ -1,4 +1,4 @@
-<nav class="nav">
+<nav class="nav" id="about">
     <div class="container">
         <div class="nav__row">
 
@@ -11,7 +11,7 @@
 
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#!" class="nav__link lng-about">About</a>
+                    <a href="#about" class="nav__link lng-about">About</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link lng-skills" href="#skills">Skills</a></button>
@@ -25,24 +25,30 @@
             </ul>
 
             <div class="nav__lang-btns">
-                <button class="nav__lang-btn nav__lang-btn--rus">
-                    RUS
-                </button>
-                <button class="nav__lang-btn nav__lang-btn--eng">
-                    ENG
-                </button>
-                <button class="nav__lang-btn nav__lang-btn--lat">
-                    LAT
-                </button>
+                <div>
+                    <input type="radio" name="lang" id="ru" checked="checked" class="nav__lang-btn nav__lang-btn--rus">
+                    <label for="ru">RU</label>
+                    <img class="nav__lang-flag nav__lang-flag--active" src="./img/icons/flag_ru.svg" alt="RU">
+                </div>
+                <div>
+                    <input type="radio" name="lang" id="en" class="nav__lang-btn nav__lang-btn--eng">
+                    <label for="en">EN</label>
+                    <img class="nav__lang-flag" src="./img/icons/flag_uk.svg" alt="EN">
+                </div>
+                <div>
+                    <input type="radio" name="lang" id="lv" class="nav__lang-btn nav__lang-btn--lat">
+                    <label for="lv">LV</label>
+                    <img class="nav__lang-flag" src="./img/icons/flag_lv.svg" alt="LV">
+                </div>
             </div>
-            
-            <button class="dark-mode-btn" >
-                    <img class="dark-mode-btn__icon"  src="./img/icons/sun2.svg" alt="Light mode">
-                    <img class="dark-mode-btn__icon"  src="./img/icons/moon2.svg" alt="Dark mode">
-                    <img class="dark-mode-btn__element"  src="./img/icons/cloud3.svg" alt="Toggle">
+
+            <button class="dark-mode-btn">
+                <img class="dark-mode-btn__icon" src="./img/icons/sun2.svg" alt="Light mode">
+                <img class="dark-mode-btn__icon" src="./img/icons/moon2.svg" alt="Dark mode">
+                <img class="dark-mode-btn__element" src="./img/icons/cloud3.svg" alt="Toggle">
             </button>
-            
+
         </div>
-        </div>
+    </div>
     </div>
 </nav>

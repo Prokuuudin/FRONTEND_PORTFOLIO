@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="481.15" version="1.1" viewBox="0 0 960.00004 481.1463" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="p">
+   <stop stop-opacity="0" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="o">
+   <stop stop-opacity="0" offset="0"/>
+   <stop stop-opacity="0" offset=".5"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <radialGradient id="z" cx="1070" cy="700" r="40" gradientTransform="matrix(-1 0 0 1 -170 -99.999)" gradientUnits="userSpaceOnUse" xlink:href="#o"/>
+  <linearGradient id="u" x1="780" x2="800" y1="373.33" y2="373.33" gradientTransform="translate(-2e3)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <linearGradient id="v" x1="410" x2="410" y1="620" y2="640" gradientTransform="translate(-2e3)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <radialGradient id="aa" cx="1070" cy="700" r="40" gradientTransform="translate(-3030 -99.999)" gradientUnits="userSpaceOnUse" xlink:href="#o"/>
+  <linearGradient id="w" x1="780" x2="800" y1="373.33" y2="373.33" gradientTransform="translate(1200)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <linearGradient id="x" x1="410" x2="410" y1="620" y2="640" gradientTransform="translate(-2e3 -880)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <radialGradient id="ab" cx="1070" cy="700" r="40" gradientTransform="matrix(-1 0 0 -1 -170 980)" gradientUnits="userSpaceOnUse" xlink:href="#o"/>
+  <radialGradient id="q" cx="1070" cy="700" r="40" gradientTransform="matrix(1 0 0 -1 -3030 980)" gradientUnits="userSpaceOnUse" xlink:href="#o"/>
+  <linearGradient id="y" x1="2050" x2="2560" y1="-120" y2="-630" gradientTransform="matrix(1 0 0 .73469 -4e3 -164.49)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="t" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="blur" stdDeviation="2 2"/>
+  </filter>
+  <clipPath id="r">
+   <path d="m30 15h30v15zv15h-30zh-30v-15zv-15h30z"/>
+  </clipPath>
+  <clipPath id="s">
+   <rect transform="scale(1,-1)" y="-30" width="60" height="30" ry="3" fill="#d70000"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(80 -41.096)">
+  <rect transform="matrix(1 0 0 -1 1e3 2)" x="-1e3" y="-480.15" width="800" height="400.96" ry="40.955" filter="url(#t)"/>
+  <g transform="matrix(13.333 0 0 13.333 0 81.146)" clip-path="url(#s)">
+   <path d="m0 0v30h60v-30z" fill="#00247d"/>
+   <path d="m0 0 60 30m0-30-60 30" stroke="#fff" stroke-width="6"/>
+   <path d="m0 0 60 30m0-30-60 30" clip-path="url(#r)" stroke="#cf142b" stroke-width="4"/>
+   <path d="m30 0v30m-30-15h60" stroke="#fff" stroke-width="10"/>
+   <path d="m30 0v30m-30-15h60" stroke="#cf142b" stroke-width="6"/>
+  </g>
+  <g transform="translate(2e3 -158.85)">
+   <path d="m-1200 600a40 40 0 0 1 -40 40v-20a20 20 0 0 0 20 -20h20z" fill="url(#z)" opacity=".603"/>
+   <rect x="-1220" y="280" width="20.001" height="320" ry="0" fill="url(#u)" opacity=".603"/>
+   <rect x="-1960" y="620" width="720" height="20" fill="url(#v)" opacity=".603"/>
+   <path d="m-2e3 600a40 40 0 0 0 40 40v-20a20 20 0 0 1 -20 -20h-20z" fill="url(#aa)" opacity=".603"/>
+   <rect transform="scale(-1,1)" x="1980" y="280" width="19.999" height="320" ry="0" fill="url(#w)" opacity=".603"/>
+   <rect transform="scale(1,-1)" x="-1960" y="-260" width="720" height="20" fill="url(#x)" opacity=".603"/>
+   <path d="m-1200 280a40 40 0 0 0 -40 -40v20a20 20 0 0 1 20 20h20z" fill="url(#ab)" opacity=".603"/>
+   <path d="m-2e3 280a40 40 0 0 1 40 -40v20a20 20 0 0 0 -20 20h-20z" fill="url(#q)" opacity=".603"/>
+   <rect transform="scale(1,-1)" x="-1980" y="-620" width="760" height="360" ry="20" fill="url(#y)" opacity=".3"/>
+  </g>
+ </g>
+</svg>

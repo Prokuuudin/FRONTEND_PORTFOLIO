@@ -52,6 +52,10 @@
 	line-height: 1;
 	font-weight: 500;
 
+	&:hover {
+		color: var(--accent);
+	}
+
 	span {
 		color: #ffffff;
 	}
@@ -125,12 +129,3 @@
 	align-items: center;
 }
 
-.footer__socials {
-	display: flex;
-	gap: 24px;
-	align-items: center;
-
-	@include mobile {
-		order: -1;
-	}
-}

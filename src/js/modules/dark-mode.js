@@ -1,7 +1,6 @@
 function darkMode (){
     const btnDarkMode = document.querySelector ('.dark-mode-btn');
-    console.log(btnDarkMode);
-
+    
        // 1. Проверка темной темы в системных настройках
     
     if (window.matchMedia && window.matchMedia ("(prefers-color-scheme: dark)").matches) {
@@ -38,7 +37,7 @@ function darkMode (){
     btnDarkMode.onclick = function () {
         btnDarkMode.classList.toggle('dark-mode-btn--active');
         const isDark = document.body.classList.toggle('dark');
-        
+                
         if (isDark) {
             localStorage.setItem('darkMode', 'dark')
         } else {localStorage.setItem('darkMode', 'light')}

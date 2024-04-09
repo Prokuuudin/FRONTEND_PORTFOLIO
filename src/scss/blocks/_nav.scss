@@ -41,6 +41,7 @@
 .nav {
 	padding: 16px 0;
 	background-color: rgb(233, 223, 223);
+	
 }
 
 .nav__logo {
@@ -68,12 +69,10 @@ label:hover {
 .nav__lang-flag {
 	width: 20px;
 	height: 20px;
-	display: none;
+	// display: none;
 }
 
 .nav__lang-flag--active {
-	width: 20px;
-	height: 20px;
 	display: block;
 }
 

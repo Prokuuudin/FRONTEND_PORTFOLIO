@@ -4,7 +4,10 @@
 	color: #e8ecef;
 
 	a {
-		color: #fff;
+		color: var(--accent);
+		&:hover {
+			color:#fff;
+		} 
 	}
 
 	@include mobile {
@@ -84,8 +87,13 @@
 	gap: 40px;
 	align-items: center;
 	color: #fefefe;
-	font-size: 14px;
+	
+	font-size: 22px;
 	line-height: 1.571428571428571;
+
+	&:hover {
+		color: var(--accent);
+	}
 
 	@include mobile {
 		flex-direction: column;
@@ -128,4 +136,3 @@
 	gap: 28px;
 	align-items: center;
 }
-

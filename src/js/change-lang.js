@@ -1,18 +1,12 @@
-const langBtn = document.querySelector('.lang-btn');
+let langBtn = document.querySelectorAll('input[type="radio"]');
 const allLang = ['ru', 'en', 'lv'];
-const flagLang = document.querySelectorAll('.nav__lang-flag'); 
-console.log(flagLang)
-navLangBtn.addEventListener('onclick', changeURLLanguage);
-langBtn.addEventListener('onclick', changeLangBtn);
+let flagLang = document.querySelectorAll('.nav__lang-flag'); 
 
-function changeLangBtn () {
-        flagLang.classList.toggle('nav__lang-flag--active');
-}  
-// changeLangBtn()
+langBtn.addEventListener('onclick', changeURLLanguage);
 
 // перенаправить на url с указанием языка
 function changeURLLanguage() {
-    let lang = langBtn.checked;
+    let lang = langBtn.value;
     location.href = window.location.pathname + '#' + lang;
     location.reload();
 }
@@ -35,5 +29,6 @@ function changeLanguage() {
         }
     }
 }
-
 export default changeLanguage;
+
+changeURLLanguage()

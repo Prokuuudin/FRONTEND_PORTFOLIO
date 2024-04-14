@@ -6,8 +6,8 @@ const langArr = {
 	},
     "projects" :	{
 		"rus":"Проекты",
-		"lat": "Proektas",
-		"eng": "Projects"
+		"lat":"Proektas",
+		"eng":"Projects"
 	},
     "skills" :	{
 		"rus": "Навыки",
@@ -20,7 +20,7 @@ const langArr = {
 		"eng": "Contacts"
 	},
 	"hero-title" :  {
-		"rus": "Меня зовут Алекснадр и я фронтенд разрабочик из Риги",
+		"rus": "Меня зовут Александр и я фронтенд разрабочик из Риги",
 		"lat": "Mani sauc Aleksandrs un es esmu Rigas frontend specialists",
 		"eng": "My name is Aleksandr and I`m a frontend developer from Riga"
 	},
@@ -28,6 +28,5 @@ const langArr = {
 		"rus": "скачать CV",
 		"lat": "ielaudet CV",
 		"eng": "download CV"
-	},
-	    
+	},    
 }

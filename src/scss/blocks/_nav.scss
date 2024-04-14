@@ -55,6 +55,7 @@
 	gap: 10px;
 	border: 0.5px #000 solid;
 	border-radius: 3px;
+	color:#000;
 }
 
 .nav__lang-btn {
@@ -62,6 +63,7 @@
 }
 
 label:hover {
+	transition: all 0.2s ease-in;
 	font-weight: 700;
 	color: var(--accent);
 }
@@ -69,7 +71,7 @@ label:hover {
 .nav__lang-flag {
 	width: 20px;
 	height: 20px;
-	// display: none;
+	display: none;
 }
 
 .nav__lang-flag--active {

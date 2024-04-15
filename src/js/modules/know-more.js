@@ -4,8 +4,9 @@ function showMoreInfo() {
     const nextBtn = document.querySelector ('.hero__next-link');
     
     knowMoreBtn.onclick = function () {
-       heroCard.classList.toggle('.hero__card--active');
-       nextBtn.classList.toggle('.hero__next-link--active');
+       console.log('click')
+       heroCard.classList.toggle('hero__card--active');
+       nextBtn.classList.toggle('hero__next-link--active');
     }
 }
-export default showMoreInfo();
+export default showMoreInfo;

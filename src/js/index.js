@@ -2,10 +2,10 @@
 import darkMode from './modules/dark-mode.js';
 darkMode();
 
-import showMoreInfo from './modules/knowmore.js';
+import showMoreInfo from './modules/know-more.js';
 showMoreInfo();
 
-// import changeLanguage from './change-lang.js';
+// import changeLanguage from './modules/change-lang.js';
 // changeLanguage();
 
 // import swiper from './modules/swiper.js';

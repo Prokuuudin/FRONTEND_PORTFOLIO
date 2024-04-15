@@ -2,6 +2,9 @@
 import darkMode from './modules/dark-mode.js';
 darkMode();
 
+import showMoreInfo from './modules/knowmore.js';
+showMoreInfo();
+
 // import changeLanguage from './change-lang.js';
 // changeLanguage();
 

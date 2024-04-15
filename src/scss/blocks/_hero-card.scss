@@ -1,14 +1,16 @@
 .hero__card {
 
 	max-height: 440px;
-
 	overflow: auto;
 
-	padding: 48px 32px;
+	padding: 28px 16px;
 	background-color: #f3f5f7;
 	
 	border-radius: 10px;
 	border: hsl(231, 100%, 61%) 1px solid;
+	box-shadow: 10px 10px 70px 0px rgba(229,217,217,0.75);
+	
+	opacity: 0;
 
 	&:hover{
 		background-color:	#e3d4d4;
@@ -18,6 +20,10 @@
 		padding: 32px 16px;
 		padding-right: 8px;
 	}
+}
+
+.hero__card--active{
+	opacity: 1;
 }
 
 .hero__card__img {

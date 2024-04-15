@@ -181,6 +181,7 @@
 	
 	border-radius: 10px;
 	border: hsl(231, 100%, 61%) 1px solid;
+	box-shadow: 10px 10px 70px 0px rgba(229,217,217,0.75);
 
 	&:hover{
 		background-color: #e3d4d4;
@@ -213,8 +214,14 @@
 	
 	border-radius: 10px;
 	border: hsl(231, 100%, 61%) 1px solid;
-
+	box-shadow: 10px 10px 70px 0px rgba(229,217,217,0.75);
+	
 	&:hover{
 		background-color: #e3d4d4;
 	}
+	opacity: 0;
 }	
+
+.hero__next-link--active{
+	opacity: 1;
+}

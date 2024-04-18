@@ -2,7 +2,7 @@ import Swiper2 from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 function getSwiper2() {
-    new Swiper2(".mySwiper", {
+    new Swiper2(".mySwiper2", {
     slidesPerView: 6,
     spaceBetween: 40,
     loop: true,

@@ -8,8 +8,13 @@ showMoreInfo();
 // import changeLanguage from './modules/change-lang.js';
 // changeLanguage();
 
-// import swiper from './modules/swiper.js';
-// swiper();
+import swiper1 from './modules/swiper1.js';
+swiper1()
 
 import swiper2 from './modules/swiper2.js';
-swiper2();
+swiper2()
+
+import acc from './modules/accordion.js';
+acc()
+
+

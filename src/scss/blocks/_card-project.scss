@@ -1,7 +1,10 @@
-.card {
+.card__box {
 	width: 300px;
 	height: 400px;
 	
+
+}
+.card {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -12,6 +15,13 @@
 }
 
 .card__picture {
+	width: 100%;
+	min-height: 200px;
+	background-color: #999;
+	background-image: url('./../img/projects/project1.png');
+	background-position: center center; /* x y */
+	background-size: cover;
+	background-repeat: no-repeat;
 	
 }
 

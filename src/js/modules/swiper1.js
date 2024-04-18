@@ -1,7 +1,7 @@
-import Swiper2 from 'swiper/bundle';
+import Swiper1 from 'swiper/bundle';
 import 'swiper/css/bundle';
 
- let swiper2 = new Swiper2(".mySwiper", {
+let swiper1 = new Swiper1(".mySwiper", {
   slidesPerView: 6,
   spaceBetween: 40,
   loop: true,
@@ -10,7 +10,7 @@ import 'swiper/css/bundle';
   autoplay: {
     delay: 0,
     disableOnInteraction: false,
-    reverseDirection:	true,
+    reverseDirection:	false,
     },
     
   // breakpoints: {
@@ -23,4 +23,4 @@ import 'swiper/css/bundle';
   //   },
   // }
 });
-export default swiper2;
+export default swiper1;

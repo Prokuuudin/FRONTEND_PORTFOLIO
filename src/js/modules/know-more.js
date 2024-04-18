@@ -3,10 +3,9 @@ function showMoreInfo() {
     let heroCard = document.querySelector ('.hero__card');
     const nextBtn = document.querySelector ('.hero__next-link');
     
-    knowMoreBtn.onclick = function () {
-       console.log('click')
-       heroCard.classList.toggle('hero__card--active');
-       nextBtn.classList.toggle('hero__next-link--active');
+      knowMoreBtn.onclick = function () {
+      heroCard.classList.toggle('hero__card--active');
+      nextBtn.classList.toggle('hero__next-link--active');
     }
 }
 export default showMoreInfo;

@@ -8,11 +8,11 @@ showMoreInfo();
 // import changeLanguage from './modules/change-lang.js';
 // changeLanguage();
 
-import swiper1 from './modules/swiper1.js';
-swiper1()
+import getSwiper1 from './modules/swiper1.js';
+getSwiper1()
 
-import swiper2 from './modules/swiper2.js';
-swiper2()
+import getSwiper2 from './modules/swiper2.js';
+getSwiper2()
 
 import acc from './modules/accordion.js';
 acc()

@@ -15,21 +15,20 @@
 		"link": "https://prokuuudin.github.io/Elegant-store---gulp_My/"
 
 	},
+	{	"name": "Project 3",
+		"img": "04",
+		"title": "Travel agency",
+		"text": "Gulp, JS. Tutorial by Webcademy.",
+		"link": "#!"
+		
+	},
 	{
-		"name": "Project 3",
+		"name": "Project 4",
 		"img": "03",
 		"title": "Internet-shop 2",
 		"text": "Bootstrap. Tutorial by Python Hub Studio",
 		"link": "https://prokuuudin.github.io/"
-	},
-	
-	
-	{
-		"name": "Project 1",
-		"img": "01",
-		"title": "Frontend portfolio",
-		"text": "React, JS. Tutorial by Webcademy.",
-		"link": "https://prokuuudin.github.io/freelanceportfolio/"
+		
 	},
 
 	{

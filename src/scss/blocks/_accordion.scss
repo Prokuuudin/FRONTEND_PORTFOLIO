@@ -23,6 +23,7 @@
 }
 
   .projects__accordion-item {
+    justify-self: center;
   
   }
   
@@ -33,6 +34,7 @@
   .panel {
     display: flex;
     padding: 0 18px;
+    border-radius: 0 0 10px 10px;
     background-color: white;
     max-height: 0;
     overflow: hidden;

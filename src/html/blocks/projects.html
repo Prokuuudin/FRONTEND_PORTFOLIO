@@ -11,7 +11,7 @@
     </div>
     <div class="container">
         <div class="projects__box">
-            @@include('templates/accordion.html')
+            @@loop('templates/accordion.html','./data/projects.json')
         </div>
     </div>
 </section>

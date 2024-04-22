@@ -23,6 +23,9 @@
 		"img": "sass"
 	},
 	{
+		"img": "bootstrap"
+	},
+	{
 		"img": "vscode"
 	}
 ]

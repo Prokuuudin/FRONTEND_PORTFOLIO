@@ -25,10 +25,10 @@
                     <a href="#about" class="nav__link lng-about">About</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link lng-skills" href="#skills">Skills</a></button>
+                    <a class="nav__link lng-projects" href="#projects">Projects</a></button>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link lng-projects" href="#projects">Projects</a></button>
+                    <a class="nav__link lng-skills" href="#skills">Skills</a></button>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link lng-contacts" href="#contacts">Contacts</a>
@@ -63,75 +63,7 @@
     </div>
     </div>
 </nav>
-		<div class="mobile-nav">
-	<!-- mobile-nav__top -->
-	<div class="mobile-nav__top">
-		<div class="mobile-nav__header">
-			<a href="#!" class="logo logo--small">3legant<span>.</span></a>
-			<button id="close-mobile-nav">
-				<img src="./img/icons/close-nav.svg" alt="Close">
-			</button>
-		</div>
-
-		<form class="mobile-nav__search">
-			<div class="mobile-nav__search-label">
-				<img src="./img/icons/search.svg" alt="Search">
-				<input class="mobile-nav__search-input" type="text" placeholder="Search">
-			</div>
-		</form>
-
-		<ul class="mobile-nav__list">
-			<li class="mobile-nav__item">
-				<a href="#!" class="mobile-nav__link">Home</a>
-			</li>
-			<li class="mobile-nav__item">
-				<button href="#!" class="mobile-nav__link">Shop
-					<img src="./img/icons/chevron-down.svg" alt="arrow"></button>
-			</li>
-			<li class="mobile-nav__item">
-				<button href="#!" class="mobile-nav__link">Product
-					<img src="./img/icons/chevron-down.svg" alt="arrow"></button>
-			</li>
-			<li class="mobile-nav__item">
-				<a href="#!" class="mobile-nav__link">Contact Us</a>
-			</li>
-		</ul>
-
-	</div>
-	<!-- // mobile-nav__top -->
-
-	<!-- mobile-nav__bottom -->
-	<div class="mobile-nav__bottom">
-		<ul class="mobile-nav__list">
-			<li class="mobile-nav__item mobile-nav__item--gray">
-				<a href="#!" class="mobile-nav__link mobile-nav__link--gray">Cart
-					<span class="nav__btn">
-						<img src="./img/icons/cart.svg" alt="Cart">
-						<span class="nav__btn-count nav__btn-count--white">2</span>
-					</span>
-				</a>
-			</li>
-			<li class="mobile-nav__item mobile-nav__item--gray">
-				<a href="#!" class="mobile-nav__link mobile-nav__link--gray">Wishlist
-					<span class="nav__btn">
-						<img src="./img/icons/heart.svg" alt="Cart">
-						<span class="nav__btn-count nav__btn-count--white">2</span>
-					</span>
-				</a>
-			</li>
-		</ul>
-
-		<a href="#!" class="btn btn--wide">Sign In</a>
-
-		<div class="mobile-nav__socials">
-			<a href="#!"><img src="./img/socials-black/instagram.svg" alt="Social"></a>
-			<a href="#!"><img src="./img/socials-black/facebook.svg" alt="Social"></a>
-			<a href="#!"><img src="./img/socials-black/youtube.svg" alt="Social"></a>
-		</div>
-	</div>
-	<!-- // mobile-nav__bottom -->
-</div>
-<div class="mobile-nav-fade"></div>
+		
 		<section class="hero" >
     <div class="hero__container-top">
         <h1 class="hero__title title lng-hero-title">
@@ -198,41 +130,37 @@
   <div class="projects__accordion-item">
     <button class="accordion">Project 1</button>
     <div class="panel">
-      <!-- <div class="swiper-slide">
-   <article class="card">
-      <div class="card__title">@@title</div>
-      <img class="card__picture" src="./img/projects/@@img.jpg" alt="Project">
-      <div class="card__text">@@text</div>
-      <a href="#!" class="card__link">смотреть</a>
-   </article>
-</div> -->
-<div class="card__box">
-   <article class="card">
-      <div class="card__title">Project1</div>
-      <img class="card__picture" alt="Project">
-      <div class="card__text">Tutorial by Webcademy</div>
-      <a href="#!" class="card__link">смотреть</a>
-   </article>
-</div>
+      <div class="projects__card-box">
+        <article class="projects__card">
+           <a href="https://prokuuudin.github.io/freelanceportfolio/" target="_blank">
+              <div class="card__title">Frontend portfolio</div>
+              <img class="card__picture" src="./img/projects/project01.png" alt="Project">
+              <div class="card__text">React, JS. Tutorial by Webcademy.</div>
+           </a>
+           <a href="https://prokuuudin.github.io/freelanceportfolio/" class="card__link" target="_blank">
+              <button class="btn" >To see</button>
+           </a>
+        </article>
+     </div>
+      
     </div>
   </div>
-  <div class="projects__accordion-item">
+  
+  <!-- <div class="projects__accordion-item">
     <button class="accordion">Project 2</button>
     <div class="panel">
-      <!-- <div class="swiper-slide">
-   <article class="card">
-      <div class="card__title">@@title</div>
-      <img class="card__picture" src="./img/projects/@@img.jpg" alt="Project">
-      <div class="card__text">@@text</div>
-      <a href="#!" class="card__link">смотреть</a>
-   </article>
-</div> -->
-<div class="card__box">
-   <article class="card">
-      <div class="card__title">Project1</div>
-      <img class="card__picture" alt="Project">
-      <div class="card__text">Tutorial by Webcademy</div>
-      <a href="#!" class="card__link">смотреть</a>
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
    </article>
 </div>
     </div>
@@ -240,20 +168,18 @@
   <div class="projects__accordion-item">
     <button class="accordion">Project 3</button>
     <div class="panel">
-      <!-- <div class="swiper-slide">
-   <article class="card">
-      <div class="card__title">@@title</div>
-      <img class="card__picture" src="./img/projects/@@img.jpg" alt="Project">
-      <div class="card__text">@@text</div>
-      <a href="#!" class="card__link">смотреть</a>
-   </article>
-</div> -->
-<div class="card__box">
-   <article class="card">
-      <div class="card__title">Project1</div>
-      <img class="card__picture" alt="Project">
-      <div class="card__text">Tutorial by Webcademy</div>
-      <a href="#!" class="card__link">смотреть</a>
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
    </article>
 </div>
     </div>
@@ -262,20 +188,18 @@
   <div class="projects__accordion-item">
     <button class="accordion">Project 4</button>
     <div class="panel">
-      <!-- <div class="swiper-slide">
-   <article class="card">
-      <div class="card__title">@@title</div>
-      <img class="card__picture" src="./img/projects/@@img.jpg" alt="Project">
-      <div class="card__text">@@text</div>
-      <a href="#!" class="card__link">смотреть</a>
-   </article>
-</div> -->
-<div class="card__box">
-   <article class="card">
-      <div class="card__title">Project1</div>
-      <img class="card__picture" alt="Project">
-      <div class="card__text">Tutorial by Webcademy</div>
-      <a href="#!" class="card__link">смотреть</a>
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
    </article>
 </div>
     </div>
@@ -283,20 +207,18 @@
   <div class="projects__accordion-item">
     <button class="accordion">Project 5</button>
     <div class="panel">
-      <!-- <div class="swiper-slide">
-   <article class="card">
-      <div class="card__title">@@title</div>
-      <img class="card__picture" src="./img/projects/@@img.jpg" alt="Project">
-      <div class="card__text">@@text</div>
-      <a href="#!" class="card__link">смотреть</a>
-   </article>
-</div> -->
-<div class="card__box">
-   <article class="card">
-      <div class="card__title">Project1</div>
-      <img class="card__picture" alt="Project">
-      <div class="card__text">Tutorial by Webcademy</div>
-      <a href="#!" class="card__link">смотреть</a>
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
    </article>
 </div>
     </div>
@@ -304,24 +226,602 @@
   <div class="projects__accordion-item">
     <button class="accordion">Project 6</button>
     <div class="panel">
-      <!-- <div class="swiper-slide">
-   <article class="card">
-      <div class="card__title">@@title</div>
-      <img class="card__picture" src="./img/projects/@@img.jpg" alt="Project">
-      <div class="card__text">@@text</div>
-      <a href="#!" class="card__link">смотреть</a>
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
    </article>
-</div> -->
-<div class="card__box">
-   <article class="card">
-      <div class="card__title">Project1</div>
-      <img class="card__picture" alt="Project">
-      <div class="card__text">Tutorial by Webcademy</div>
-      <a href="#!" class="card__link">смотреть</a>
+</div>
+    </div>
+  </div> -->
+</div><div class="projects__accordion">
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 2</button>
+    <div class="panel">
+      <div class="projects__card-box">
+        <article class="projects__card">
+           <a href="https://prokuuudin.github.io/Elegant-store---gulp_My/" target="_blank">
+              <div class="card__title">Internet-shop 1</div>
+              <img class="card__picture" src="./img/projects/project02.png" alt="Project">
+              <div class="card__text">Gulp, JS. Tutorial by Webcademy.</div>
+           </a>
+           <a href="https://prokuuudin.github.io/Elegant-store---gulp_My/" class="card__link" target="_blank">
+              <button class="btn" >To see</button>
+           </a>
+        </article>
+     </div>
+      
+    </div>
+  </div>
+  
+  <!-- <div class="projects__accordion-item">
+    <button class="accordion">Project 2</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
    </article>
 </div>
     </div>
   </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 3</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 4</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 5</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 6</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div> -->
+</div><div class="projects__accordion">
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 3</button>
+    <div class="panel">
+      <div class="projects__card-box">
+        <article class="projects__card">
+           <a href="https://prokuuudin.github.io/" target="_blank">
+              <div class="card__title">Internet-shop 2</div>
+              <img class="card__picture" src="./img/projects/project03.png" alt="Project">
+              <div class="card__text">Bootstrap. Tutorial by Python Hub Studio</div>
+           </a>
+           <a href="https://prokuuudin.github.io/" class="card__link" target="_blank">
+              <button class="btn" >To see</button>
+           </a>
+        </article>
+     </div>
+      
+    </div>
+  </div>
+  
+  <!-- <div class="projects__accordion-item">
+    <button class="accordion">Project 2</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 3</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 4</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 5</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 6</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div> -->
+</div><div class="projects__accordion">
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 1</button>
+    <div class="panel">
+      <div class="projects__card-box">
+        <article class="projects__card">
+           <a href="https://prokuuudin.github.io/freelanceportfolio/" target="_blank">
+              <div class="card__title">Frontend portfolio</div>
+              <img class="card__picture" src="./img/projects/project01.png" alt="Project">
+              <div class="card__text">React, JS. Tutorial by Webcademy.</div>
+           </a>
+           <a href="https://prokuuudin.github.io/freelanceportfolio/" class="card__link" target="_blank">
+              <button class="btn" >To see</button>
+           </a>
+        </article>
+     </div>
+      
+    </div>
+  </div>
+  
+  <!-- <div class="projects__accordion-item">
+    <button class="accordion">Project 2</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 3</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 4</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 5</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 6</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div> -->
+</div><div class="projects__accordion">
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 2</button>
+    <div class="panel">
+      <div class="projects__card-box">
+        <article class="projects__card">
+           <a href="https://prokuuudin.github.io/Elegant-store---gulp_My/" target="_blank">
+              <div class="card__title">Internet-shop 1</div>
+              <img class="card__picture" src="./img/projects/project02.png" alt="Project">
+              <div class="card__text">Gulp, JS. Tutorial by Webcademy.</div>
+           </a>
+           <a href="https://prokuuudin.github.io/Elegant-store---gulp_My/" class="card__link" target="_blank">
+              <button class="btn" >To see</button>
+           </a>
+        </article>
+     </div>
+      
+    </div>
+  </div>
+  
+  <!-- <div class="projects__accordion-item">
+    <button class="accordion">Project 2</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 3</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 4</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 5</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 6</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div> -->
+</div><div class="projects__accordion">
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 3</button>
+    <div class="panel">
+      <div class="projects__card-box">
+        <article class="projects__card">
+           <a href="https://prokuuudin.github.io/" target="_blank">
+              <div class="card__title">Internet-shop 2</div>
+              <img class="card__picture" src="./img/projects/project03.png" alt="Project">
+              <div class="card__text">Bootstrap. Tutorial by Python Hub Studio</div>
+           </a>
+           <a href="https://prokuuudin.github.io/" class="card__link" target="_blank">
+              <button class="btn" >To see</button>
+           </a>
+        </article>
+     </div>
+      
+    </div>
+  </div>
+  
+  <!-- <div class="projects__accordion-item">
+    <button class="accordion">Project 2</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 3</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 4</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 5</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div>
+  <div class="projects__accordion-item">
+    <button class="accordion">Project 6</button>
+    <div class="panel">
+      <div class="projects__card-box">
+   <article class="projects__card">
+      <a href="">
+         <div class="card__title">Frontend portfolio</div>
+         <img class="card__picture" src="./img/projects/project1.png" alt="Project">
+         <div class="card__text">
+            React, JS, dark-mode. Tutorial by Webcademy. 
+         </div>
+      </a>
+      <a href="#!" class="card__link">
+         <button class="btn" >To see</button>
+      </a>
+   </article>
+</div>
+    </div>
+  </div> -->
 </div>
         </div>
     </div>
@@ -331,7 +831,7 @@
     <div class="skillls__desc">
       <h2 class="skiils__title title">MY SKILLS</h2>
       <div class="skills__text">
-        <p>Skills description</p>
+        <р>Skills description</р>
       </div>
       </div>
     </div>
@@ -358,6 +858,9 @@
 </div>
 <div class="swiper-slide">
     <img class="swiper-slide__img" src="./img/skills/sass.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/bootstrap.png" alt="">
 </div>
 <div class="swiper-slide">
     <img class="swiper-slide__img" src="./img/skills/vscode.png" alt="">
@@ -388,6 +891,9 @@
 </div>
 <div class="swiper-slide">
     <img class="swiper-slide__img" src="./img/skills/sass.png" alt="">
+</div>
+<div class="swiper-slide">
+    <img class="swiper-slide__img" src="./img/skills/bootstrap.png" alt="">
 </div>
 <div class="swiper-slide">
     <img class="swiper-slide__img" src="./img/skills/vscode.png" alt="">

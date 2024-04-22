@@ -14,7 +14,7 @@ getSwiper1()
 import getSwiper2 from './modules/swiper2.js';
 getSwiper2()
 
-// import acc from './modules/accordion.js';
-// acc()
+import getAccordion from './modules/accordion.js';
+getAccordion()
 
 

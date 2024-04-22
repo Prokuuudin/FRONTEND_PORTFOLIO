@@ -27,4 +27,11 @@
     font-size: 36px;
 }
 
-
+.projects__box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}

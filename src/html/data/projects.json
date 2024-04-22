@@ -1,28 +1,50 @@
 [
 	{
+		"name": "Project 1",
 		"img": "01",
-		"title": "Project-1",
-		"text": "Интернет-магазин по туториалу"
+		"title": "Frontend portfolio",
+		"text": "React, JS. Tutorial by Webcademy.",
+		"link": "https://prokuuudin.github.io/freelanceportfolio/"
 	},
 
 	{
+		"name": "Project 2",
 		"img": "02",
-		"title": "Project-2",
-		"text": "Галп-сборка по туториалу"
+		"title": "Internet-shop 1",
+		"text": "Gulp, JS. Tutorial by Webcademy.",
+		"link": "https://prokuuudin.github.io/Elegant-store---gulp_My/"
+
 	},
 	{
+		"name": "Project 3",
 		"img": "03",
-		"title": "Project-3",
-		"text": "Проект на будстрапе по туториалу"
+		"title": "Internet-shop 2",
+		"text": "Bootstrap. Tutorial by Python Hub Studio",
+		"link": "https://prokuuudin.github.io/"
+	},
+	
+	
+	{
+		"name": "Project 1",
+		"img": "01",
+		"title": "Frontend portfolio",
+		"text": "React, JS. Tutorial by Webcademy.",
+		"link": "https://prokuuudin.github.io/freelanceportfolio/"
+	},
+
+	{
+		"name": "Project 2",
+		"img": "02",
+		"title": "Internet-shop 1",
+		"text": "Gulp, JS. Tutorial by Webcademy.",
+		"link": "https://prokuuudin.github.io/Elegant-store---gulp_My/"
 	},
 	{
-		"img": "04",
-		"title": "Project-4",
-		"text": "Проект на ХТМЛ и СиЭсэС"
-	},
-	{
-		"img": "05",
-		"title": "Project-5",
-		"text": "Проект на Реакте"
+		"name": "Project 3",
+		"img": "03",
+		"title": "Internet-shop 2",
+		"text": "Bootstrap. Tutorial by Python Hub Studio",
+		"link": "https://prokuuudin.github.io/"
 	}
+		
 ]

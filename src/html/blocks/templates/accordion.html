@@ -1,11 +1,24 @@
 <div class="projects__accordion">
   <div class="projects__accordion-item">
-    <button class="accordion">Project 1</button>
+    <button class="accordion">@@name</button>
     <div class="panel">
-      @@include('card-project.html')
+      <div class="projects__card-box">
+        <article class="projects__card">
+           <a href="@@link" target="_blank">
+              <div class="card__title">@@title</div>
+              <img class="card__picture" src="./img/projects/project@@img.png" alt="Project">
+              <div class="card__text">@@text</div>
+           </a>
+           <a href="@@link" class="card__link" target="_blank">
+              <button class="btn" >To see</button>
+           </a>
+        </article>
+     </div>
+      <!-- @@include('card-project.html') -->
     </div>
   </div>
-  <div class="projects__accordion-item">
+  
+  <!-- <div class="projects__accordion-item">
     <button class="accordion">Project 2</button>
     <div class="panel">
       @@include('card-project.html')
@@ -35,5 +48,5 @@
     <div class="panel">
       @@include('card-project.html')
     </div>
-  </div>
+  </div> -->
 </div>

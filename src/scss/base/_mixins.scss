@@ -4,6 +4,12 @@
     }
 }
 
+// Точки перелома
+// 1582 - download cv, header, my skills swipers
+// 1370 - accordion, my skills swipers
+// 1160 - contacts form
+// 1352 - navbar dark-mode, menu 
+
 @mixin tablet () {
     @media (max-width: 1184px) {
 		@content;

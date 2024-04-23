@@ -1,25 +1,24 @@
 .hero__card {
-
 	max-height: 440px;
 	overflow: auto;
 
-	padding: 28px 16px;
+	padding: 20px 16px;
 	background-color: #f3f5f7;
 	
 	border-radius: 10px;
 	border: hsl(231, 100%, 61%) 1px solid;
 	box-shadow: 10px 10px 70px 0px rgba(229,217,217,0.75);
 	
-	opacity: 0;
+	// opacity: 0;
 
 	&:hover{
 		background-color:	#e3d4d4;
 	}
 
-	@include mobile {
-		padding: 32px 16px;
-		padding-right: 8px;
-	}
+	// @include mobile {
+	// 	padding: 32px 16px;
+	// 	padding-right: 8px;
+	// }
 }
 
 .hero__card--active{
@@ -27,15 +26,11 @@
 }
 
 .hero__card__img {
-	margin-bottom: 16px;
+	margin-bottom: 10px
 }
 
 .hero__card__title {
 	margin-bottom: 8px;
-	font-size: 20px;
-	line-height: 1.4;
-	font-weight: 500;
-	font-family: var(--font-accent);
 
 	@include mobile {
 		margin-bottom: 4px;
@@ -43,7 +38,7 @@
 	}
 }
 .hero__card__desc {
-	color: #6c7275;
+	color: #000;
 	font-size: 14px;
 	line-height: 1.714285714285714;
 }

@@ -20,7 +20,7 @@ img {
 	--text-color:var(--white);
 
 	--title-1: var(--white);
-
+	
 	--project-card-bg:var(--white);
 	--project-card-text:var(--black);
 
@@ -31,6 +31,15 @@ img {
     font-weight: 700;
 	text-transform: uppercase;
 	color: var(--text-color);
+}
+
+.title2 {
+	font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: var(--font-accent);
+	color: #000;
+	
 }
 
 span {

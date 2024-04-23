@@ -16,19 +16,17 @@
     </div>
 
     <div class="hero__container-bottom">
-        <div class="hero__info-link">
-            <button class="hero__info-link-btn">
-                <img class="hero__info-link-btn-photo" src="./img/hero/hero.jpg" alt="Hero photo">
-                <p class="hero__info-link-desc">Click here to know more about me</p>
-                
-                <div class="hero__info__next-cart-btn">
-                    <img src="./img/icons/arrow-right.svg" alt="Arrow right">
-                </div>
+        <div class="hero__info">
+            <button class="hero__info-btn">
+                <img class="hero__info-btn-photo" src="./img/hero/hero.jpg" alt="Hero photo">
+                <div class="hero__info-btn-link">                    
+                    <p class="hero__info-btn-text">More about me</p>             
+                    <img class="hero__info-btn-arrow" src="./img/icons/arrow-right.svg" alt="Arrow right">
+                </div>                
             </button>
         </div>
-      
-        @@loop('templates/hero-card.html', './data/hero.json')
-        <div class="hero__next-link"><a href="#projects">Go ahead!</a>
+              @@loop('templates/hero-card.html', './data/hero.json')
+        <div class="hero__next-link hero__next"><a href="#projects">Go to frontend</a>
         </div>
     </div>
 </section>

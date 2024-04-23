@@ -1,9 +1,25 @@
+.swiper-container {
+
+  height: 1000px;
+  padding-top: 100px;
+  background-image: url('./../img/skills/bg-skills.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  overflow: hidden;
+  display: flex;
+    flex-direction: column;
+     align-items: center;
+    
+}
+
 .swiper-wrapper {
   height:fit-content !important;
 }
 
 .swiper1, .swiper2 {
-    margin-bottom: 250px;
+    margin-bottom: 20px;
     max-width: 100%;
     height: 250px;
 }

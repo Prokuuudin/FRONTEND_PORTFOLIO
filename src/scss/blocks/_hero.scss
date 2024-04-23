@@ -1,5 +1,5 @@
 .hero {
-	height: 1000px;
+	height: 1120px;
 	background-image: var(--hero-bg);
 
 	background-position: center center; /* x y */
@@ -24,7 +24,9 @@
 }
 
 .hero__container-top {
-	width: 100%;
+	margin: 0 auto;
+
+	width: 90%;
 	height: 50%;
 
 	display: grid;
@@ -127,7 +129,9 @@
 };
 
 .hero__container-bottom {
-	width: 100%;
+	margin: 0 auto;
+	
+	width: 90%;
 	height: 50%;
 
 	display: grid;
@@ -161,7 +165,9 @@
 	
 	border-radius: 10px;
 	border: hsl(231, 100%, 61%) 1px solid;
-	box-shadow: 10px 10px 70px 0px rgba(229,217,217,0.75);
+	box-shadow: var(--box-shadow);
+
+	transition: all 0.2s ease-in;
 
 	&:hover{
 		background-color: #e3d4d4;

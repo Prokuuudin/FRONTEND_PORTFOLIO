@@ -134,8 +134,8 @@
 	width: 90%;
 	height: 50%;
 
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	display: flex;
+	flex-direction: row;
 	gap: 30px;
 
 	padding: 0 100px 100px;
@@ -156,8 +156,11 @@
 }
 
 .hero__info {
-	display: flex;
 	margin: auto 0;
+	max-width: 350px;
+	max-height: 500px;
+	
+	display: flex;
 	background-color: #fff;
 	align-items: center;
 	
@@ -207,16 +210,31 @@
 
 }
 
-.hero__next-link {
+.hero__cards {
 	display: flex;
-	min-height: 100px;
+	gap: 50px;
+	opacity: 0;
+}
+.hero__cards--active {
+	opacity: 1;
+}
+
+
+.hero__next-link {
 	margin: auto 0;
+
+	display: flex;
+	
+	width: 340px;
+	min-height: 100px;
+	
 	background-color: #fff;
+	color: #000;
+	
 	align-items: center;
 	text-align: center;
 	justify-content: center;
 	
-	color: #000;
 	
 	border-radius: 10px;
 	border: hsl(231, 100%, 61%) 1px solid;
@@ -225,13 +243,11 @@
 	&:hover{
 		background-color: #e3d4d4;
 	}
-	// opacity: 0;	
+	opacity: 0;
 }	
 
-.hero__next{
-	display: none;
 
+.hero__next-link--active {
+	opacity: 1;
 }
-.hero__next--active{
-	display: block;
-}
+

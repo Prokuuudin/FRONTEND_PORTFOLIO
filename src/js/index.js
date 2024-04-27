@@ -1,6 +1,8 @@
-
 import darkMode from './modules/dark-mode.js';
 darkMode();
+
+import showMoreInfo from './modules/know-more.js';
+showMoreInfo();
 
 import getSwiper1 from './modules/swiper1.js';
 getSwiper1()
@@ -11,8 +13,6 @@ getSwiper2()
 import getAccordion from './modules/accordion.js';
 getAccordion()
 
-import showMoreInfo from './modules/know-more.js';
-showMoreInfo();
 
 // import changeLanguage from './modules/change-lang.js';
 // changeLanguage();

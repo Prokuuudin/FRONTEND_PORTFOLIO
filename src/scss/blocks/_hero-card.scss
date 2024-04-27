@@ -1,5 +1,6 @@
 .hero__card {
-	max-height: 440px;
+	width: 340px;
+	height:400px;
 	overflow: auto;
 
 	padding: 20px 16px;
@@ -21,9 +22,9 @@
 	// }
 }
 
-.hero__card--active{
-	opacity: 1;
-}
+// .hero__card--active{
+// 	opacity: 1;
+// }
 
 .hero__card__img {
 	margin-bottom: 10px

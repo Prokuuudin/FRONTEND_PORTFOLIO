@@ -1,7 +1,9 @@
 .contacts {
-    padding-top: 150px;
-    background-position: 0 -20px;
     position: relative;
+    
+    padding-top: 150px;
+    
+    background-position: 0 -20px;
     background-color:#6ca8f3;
 }
 
@@ -33,10 +35,7 @@
 
 .contacts__list {
     padding: 30px;
-    height: 680px;
-    // display: grid;
-    // grid-template-rows: repeat(5, 1fr);
-    // gap: 25px;
+    max-height: 655px;
     border: 3px solid #000;
 }
 
@@ -79,10 +78,11 @@
 }
 
 .contacts__form {
-    border: 3px solid #000;
-    width: 90%;
-    margin: 0 auto;
     padding: 30px;
+    margin: 0 auto;
+    width: 90%;
+    max-height: 655px;
+    border: 3px solid #000;
 }
 
 .contacts__form .form-group {
@@ -96,15 +96,19 @@
 }
 
 .contacts__form input,.contacts__form textarea {
-    -webkit-box-sizing: border-box;
+    padding: 0 10px;
+    
     width: 100%;
     height: 35px;
+    
+    -webkit-box-sizing: border-box;
     background-color: #fff;
     border: 3px solid #000;
-    color: #000;
-    font-size: 20px;
-    padding: 0 10px;
     border-radius: 5px;
+    color: #000;
+    
+    font-size: 20px;
+    
     cursor: pointer;
 }
 
@@ -114,19 +118,22 @@
 }
 
 .contacts__form .form-upload {
+    margin-bottom: 15px;
+    padding: 10px 10px 5px;
+    width: auto;
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: auto;
-    // background-color: #16d688;
+    
     color: #000;
     text-transform: uppercase;
-    padding: 10px 10px 5px;
+    
     border-radius: 5px;
-    margin-bottom: 15px;
+    
     cursor: pointer
 }
 
@@ -139,12 +146,16 @@
 }
 
 .contacts__form input[type="checkbox"]+label {
-    display: block;
     position: relative;
     margin: 12px 0 12px 30px;
+    
+    display: block;
+    
     cursor: pointer;
+
     font-size: 16px;
     line-height: 20px;
+    
     color: #000;
 }
 
@@ -173,20 +184,24 @@
 }
 
 .contacts__form button {
-    font-size: 25px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    display: block;
-    cursor: pointer;
-    font-size: 14px;
     padding: 10px 30px;
-    border: none;
-    background: white;
+    margin-left: 30px;
+
+    display: block;
+    
+    border-radius: 5px;
+    border: 0.5px solid #000;
+    
+    cursor: pointer;
+    
+    font-size: 14px;
+    font-weight: bold;
     color: #000;
     text-transform: uppercase;
+    
+    background: white;
     -webkit-transition: 0.4s all;
     transition: 0.4s all;
-    font-weight: bold
 }
 
 .contacts__form button:hover {

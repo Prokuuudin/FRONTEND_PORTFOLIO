@@ -29,4 +29,25 @@ const langArr = {
 		"lat": "ielaudet CV",
 		"eng": "download CV"
 	},    
+	"hero": {
+		"rus": "Узнать больше",
+		"lat": "Uzzinat vairak",
+		"eng": "More about me"	
+	},
+
+	"next-btn": {
+		"rus": "К фронтэнду",
+		"lat": "Pie frontendu",
+		"eng": "Back to frontend"	
+	},
+	
+	"projects-desc": {
+		"rus": "проекты добавляются по мере появления",
+		"lat": "projekti tiek pievienoti pēc izgatavošanas",
+		"eng": "projects are being added as they emerge"	
+	},
+
+	
+
+
 }

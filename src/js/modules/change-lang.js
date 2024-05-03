@@ -11,6 +11,8 @@ function changeURLLanguage() {
     location.reload();
 }
 
+changeURLLanguage();
+
 function changeLanguage() {
     let hash = window.location.hash;
     hash = hash.substr(1);
@@ -29,6 +31,5 @@ function changeLanguage() {
         }
     }
 }
-export default changeLanguage;
 
-changeURLLanguage()
+export default changeLanguage

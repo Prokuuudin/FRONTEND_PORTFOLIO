@@ -13,6 +13,8 @@ getSwiper2()
 import getAccordion from './modules/accordion.js';
 getAccordion()
 
+import mobileNav from './modules/mobile-nav.js';
+mobileNav()
 
 // import changeLanguage from './modules/change-lang.js';
 // changeLanguage();

@@ -213,10 +213,13 @@
 .hero__cards {
 	display: flex;
 	gap: 50px;
-	opacity: 0;
+	transition: all ease-in 0.2s;
+
+	transform: scale(0);
 }
 .hero__cards--active {
-	opacity: 1;
+	transition: all ease-in 0.3s;
+	transform: scale(1);
 }
 
 
@@ -243,11 +246,13 @@
 	&:hover{
 		background-color: #e3d4d4;
 	}
-	opacity: 0;
+	transition: all ease-in 0.2s;
+	transform: scale(0) ;
 }	
 
 
 .hero__next-link--active {
-	opacity: 1;
+	transition: all ease-in 0.3s;
+	transform: scale(1);
 }
 

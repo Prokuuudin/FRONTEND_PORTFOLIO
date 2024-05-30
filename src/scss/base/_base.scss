@@ -6,7 +6,7 @@ body {
 	background-color: var(--page-bg);
 	color: var(--text-color);
     font-family: var(--font-main);
-	text-wrap: balance;
+	// text-wrap: balance;
 
 }
 
@@ -31,6 +31,8 @@ img {
     font-weight: 700;
 	text-transform: uppercase;
 	color: var(--text-color);
+	text-align: center;
+    justify-content: center;
 }
 
 .title2 {
@@ -45,3 +47,4 @@ img {
 span {
 	color: #ff3757;
 }
+

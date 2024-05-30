@@ -8,24 +8,10 @@
 
 	opacity: 1;
 
-	// @include tablet {
-	// 	height: 500px;
-	// }
-
-	// @include mobile {
-	// 	height: auto;
-	// 	padding-bottom: 390px;
-
-	// 	background-image: url('./../img/hero/bg-mobile.jpg');
-	// 	@include mediaBg() {
-	// 		background-image: url('./../img/hero/bg-mobile@2x.jpg');
-	// 	}
-	// }
 }
 
 .hero__container-top {
 	margin: 0 auto;
-
 	width: 90%;
 	height: 50%;
 
@@ -48,6 +34,11 @@
 		max-width: 375px;
 		margin: 0 auto;
 	}
+}
+
+.hero__title{
+	
+
 }
 
 .hero__content {
@@ -137,6 +128,7 @@
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
+	align-items: center;
 
 	padding: 0 100px 100px;
 
@@ -206,7 +198,8 @@
 }
 
 .hero__info-btn-arrow {
-	width: 15%;
+	width: 12%;
+	margin-right: 10px;
 
 }
 
@@ -228,7 +221,7 @@
 
 	display: flex;
 	
-	width: 340px;
+	min-width: 100px;
 	min-height: 100px;
 	
 	background-color: #fff;

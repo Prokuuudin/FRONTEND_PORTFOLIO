@@ -1,16 +1,12 @@
 .hero__cards {
 	padding: 40px 0;
-}
+	z-index: 9;
 
-// .values__grid {
-//     display: grid;
-//     grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
-//     gap: 24px;
-// }
-
-.hero__cards__grid {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	
+	width: 100%;
+
 	gap: 24px;
 
 	& > * {
@@ -18,14 +14,14 @@
 		min-width: 262px;
 	}
 
-	@include mobile {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(150px, 1fr));
-		gap: 24px 8px;
+	// @include mobile {
+	// 	display: grid;
+	// 	grid-template-columns: repeat(2, minmax(150px, 1fr));
+	// 	gap: 24px 8px;
 
-		& > * {
-			flex: none;
-			min-width: auto;
-		}
-	}
+	// 	& > * {
+	// 		flex: none;
+	// 		min-width: auto;
+	// 	}
+	// }
 }
